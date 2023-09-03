@@ -2,7 +2,7 @@
 
 **Description**
 
-This GitHub project provides 2 files: 
+This project provides 2 files: 
 
   - [riot_api_data](riot_api_data.py) Python script to fetch data from the Riot Games Developer API, formats data and stores them into final_list
   
