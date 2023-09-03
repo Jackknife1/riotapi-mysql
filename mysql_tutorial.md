@@ -9,7 +9,7 @@ In this file i'll show how to create your own database, table and how to modify 
  ***Python***
 
 
-  **1. In bash execute this comand to install mysl.connector module for connecting to mysql database and alternating it**
+  **1. In bash execute this command to install mysl.connector module for connecting to mysql database and alternating it**
      <pre>
        `
        pip install mysql-connector-python
@@ -17,7 +17,7 @@ In this file i'll show how to create your own database, table and how to modify 
      </pre>
 
      
-  **2. In python first we import module mysql.connector**
+  **2. First we import module mysql.connector**
      <pre>
        `
        import mysql.connector
@@ -84,6 +84,13 @@ In this file i'll show how to create your own database, table and how to modify 
   [data_to_sql](data_to_sql.py) - process is shown in file
 
   </p>
+
+  **NOTE**
+  When inserting data into database, always check
+  - Collumn order must match with collumn names in table
+  - Number of placeholders must match number of rows
+  - Format api data into hashable format, like tuple(), so it can be properly inserted
+  - Check if data types of your varibales match data types of your collumns (can't insert str into int collumn)
 
   Thank you for reading
 
