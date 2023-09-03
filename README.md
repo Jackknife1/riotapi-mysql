@@ -2,9 +2,11 @@
 
 **Description**
 
-This project provides 2 files: 
+This project provides 3 files: 
 
   - [riot_api_data](riot_api_data.py) Python script to fetch data from the Riot Games Developer API, formats data and stores them into final_list
+
+  - [mysql tutorial](mysql.tutorial.py) Tutorial how to connect to mysql server, create database, table and collumns
   
   - [data_to_sql](data_to_sql.py) Python script that inserts data to mysql database
 
@@ -30,4 +32,4 @@ Contributions to this project are welcome. You can help improve data fetching, a
 This is my first bigger project so i believe many things in my code could be better optimised or work more efficiently.
 
 
-Thank you for reading.
+Thank you for reading
