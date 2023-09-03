@@ -1,6 +1,6 @@
 # riotapi-mysql
 
-**Description:**
+**Description**
 This GitHub project provides 2 files: 
 
   - riot_api_data (A Python script to fetch data from the Riot Games Developer API, formats data and stores them into final_list
@@ -19,12 +19,12 @@ This GitHub project provides 2 files:
 - Fourth step was inserting data into mysql database
 
 
-**Contributing:**
+**Contributing**
 Contributions to this project are welcome. You can help improve data fetching, add additional features, or enhance database interaction.
 
 
 **NOTE**
-This is my first bigger project so i believe many things in my code could be better optimised or work diferently.
+This is my first bigger project so i believe many things in my code could be better optimised or work more efficiently.
 
 
 Thank you for reading.
