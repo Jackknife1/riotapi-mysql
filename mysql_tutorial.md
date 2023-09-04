@@ -62,9 +62,9 @@ In this file i'll show how to create your own database, table and how to modify 
      <pre>
      ```table_query = """```
      CREATE TABLE IF NOT EXISTS your_table_name (
-     column_name1 VARCHAR(45),
-     column_name2 VARCHAR(45),
-     column_name3 INT
+     collumn_name1 VARCHAR(45),
+     collumn_name2 VARCHAR(45),
+     collumn_name3 INT
      """
      cursor.execute(table_query)
      </pre>
