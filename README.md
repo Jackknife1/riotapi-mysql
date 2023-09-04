@@ -10,7 +10,7 @@ This project provides 4 files:
 
   - [riot_api_data](riotapi_mysql/riot_api_data.py) Python script to fetch data from the Riot Games Developer API, formats data and stores them into final_list
   
-  - [data_to_sql](riotapi-mysql/data_to_sql.py) Python script that inserts data to mysql database
+  - [data_to_sql](riotapi_mysql/data_to_sql.py) Python script that inserts data to mysql database
 
 
 ## My Workflow Process
