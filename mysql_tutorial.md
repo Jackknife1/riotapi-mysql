@@ -6,7 +6,7 @@ In this file i'll show how to create your own database, table and how to modify 
 
 # Workflow process
 
- ***Python***
+ **Python**
 
 
   **1. In bash execute this command to install mysl.connector module for connecting to mysql database and alternating it**
