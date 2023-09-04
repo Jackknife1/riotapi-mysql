@@ -427,7 +427,7 @@ for i in myteam_champions:
 #Calculation of player's KDA and preventing ZeroDivisionError
 kda = 0
 if deaths == 0:
-    deaths = kills + assists
+    kda = kills + assists
 else:
     kda = (kills + assists) / deaths
     kda = round(kda, 2)
