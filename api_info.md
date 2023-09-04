@@ -28,7 +28,7 @@ In this file i'll tell you steps how to fetch data from riot api
 
   **NOTE**
   
-  In [riot_api](riotapi_mysql/riot_api.py) are 27 data variables that i found usefull for me
+  In [riot_api](riotapi_mysql/riot_api_data.py) are 27 data variables that i found usefull for me
   
   You can store even more data in database or find new ways to obtain another usefull data about player or match
 
