@@ -27,10 +27,11 @@ In this file i'll show how to create your own database, table and how to modify 
       
   **3. Now we need to estabilish a connection with database by passing infromation about host, user and password**
         <pre>
-          ```connection = mysql.connector.connect()```
+          ```connection = mysql.connector.connect(```
           host = "host"
           user = "root"
           password = "your_password"
+          )
         </pre>
 
      
@@ -72,10 +73,12 @@ In this file i'll show how to create your own database, table and how to modify 
   **NOTE**
   Dont forget to specify in *connection* your database name where table can be created
     <pre>
-    ```connection = mysql.connector.connect()```
+    ```connection = mysql.connector.connect(```
     host = "host"
     user = "root"
     password = "your_password"
+    database = "league_of_legends"
+    )
     </pre>
   
   **8. Insert data into database**
@@ -86,11 +89,14 @@ In this file i'll show how to create your own database, table and how to modify 
   </p>
 
   **NOTE**
-  When inserting data into database, always check
+  When inserting data into database, always check:
   - Collumn order must match with collumn names in table
   - Number of placeholders must match number of rows
   - Format api data into hashable format, like tuple(), so it can be properly inserted
   - Check if data types of your varibales match data types of your collumns (can't insert str into int collumn)
+
+  ***MySQL***
+  All those thing could be also done in mysql workbench, manualy or by mysql commands with their own syntax.
 
   Thank you for reading
 
