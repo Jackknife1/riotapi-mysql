@@ -19,7 +19,7 @@ This project provides 4 files:
 - Second step was setting up mysql server and accesing server on mysql workbench app. If you have windows as operatng system and want to see a step by step proccess of setting up your mysql server and mysql workbench watch this tutorial
   [How to Install MySQL on Windows by Database Star](https://youtu.be/2om3byn2lxs?si=S6or78IJIlKCKr7i)
 
-- Third step was creating a mysql database, table and colunms for api data [mysql.md](mysql.md)
+- Third step was creating a mysql database, table and colunms for api data [mysql.md](mysql.tutorial.md)
 
 - Fourth step was inserting data into mysql database
 
