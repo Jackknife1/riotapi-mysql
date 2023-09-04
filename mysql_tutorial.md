@@ -81,7 +81,7 @@ In this file i'll show how to create your own database, table and how to modify 
   **8. Insert data into database**
   <p>
     
-  [data_to_sql](data_to_sql.py) - process is shown in file
+  [data_to_sql](riotapi_mysql/data_to_sql.py) - process is shown in file
 
   </p>
 
