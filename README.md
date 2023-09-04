@@ -16,7 +16,7 @@ This project provides 4 files:
 ## My Workflow Process
 - First i focused on fetching data from riot dev api [Riot Developer](https://developer.riotgames.com). I created requests for all the data I needed and lastly created statements to check specific conditions or to ad data based on specific parameters
 
-- Second step was setting up mysql server and accesing server on mysql workbench app. If you have windows as operatng system and want to see a step by step proccess of setting up your mysql server and mysql workbench watch this tutorial
+- Second step was setting up mysql server and accessing server on mysql workbench. If you have windows as operatng system and want to see a step by step proccess of setting up your mysql server and mysql workbench watch this tutorial
   [How to Install MySQL on Windows by Database Star](https://youtu.be/2om3byn2lxs?si=S6or78IJIlKCKr7i)
 
 - Third step was creating a mysql database, table and colunms for api data [mysql.md](mysql_tutorial.md)
