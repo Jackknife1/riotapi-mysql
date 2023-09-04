@@ -8,7 +8,7 @@ This project provides 4 files:
 
   - [mysql tutorial](mysql_tutorial.md) Tutorial on how to connect to mysql server, create database, table and collumns
 
-  - [riot_api_data](riot_api_data.py) Python script to fetch data from the Riot Games Developer API, formats data and stores them into final_list
+  - [riot_api_data](riotapi_mysql/riot_api_data.py) Python script to fetch data from the Riot Games Developer API, formats data and stores them into final_list
   
   - [data_to_sql](data_to_sql.py) Python script that inserts data to mysql database
 
