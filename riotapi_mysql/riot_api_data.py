@@ -4,7 +4,7 @@ import requests
 
 #Summoner name and region 
 name = "your_summoner_name"  #input("What is your summoner name:? ")
-region = "eun1"  #input("What is your region?(eun1, euw1, na1, la1, la2, oc1, jp1): ")
+region = "your_region"  #input("What is your region?(eun1, euw1, na1, la1, la2, oc1, jp1): ")
 
 
 #Formating region
