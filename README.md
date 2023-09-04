@@ -1,8 +1,10 @@
 # riotapi-mysql
 
-**Description**
+## Description
 
-This project provides 3 files: 
+This project provides 4 files: 
+
+  - [api_info](api_info.md) Steps to get a successfull api call
 
   - [mysql tutorial](mysql.tutorial.py) Tutorial how to connect to mysql server, create database, table and collumns
 
@@ -11,7 +13,7 @@ This project provides 3 files:
   - [data_to_sql](data_to_sql.py) Python script that inserts data to mysql database
 
 
-**My Workflow Process**
+## My Workflow Process
 - First i focused on fetching data from riot dev api [Riot Developer](https://developer.riotgames.com). I created requests for all the data I needed and lastly created statements to check specific conditions or to ad data based on specific parameters
 
 - Second step was setting up mysql server and accesing server on mysql workbench app. If you have windows as operatng system and want to see a step by step proccess of setting up your mysql server and mysql workbench watch this tutorial
@@ -22,7 +24,7 @@ This project provides 3 files:
 - Fourth step was inserting data into mysql database
 
 
-**Contributing**
+## Contributing
 
 Contributions to this project are welcome. You can help improve data fetching, add additional features, or enhance database interaction.
 
