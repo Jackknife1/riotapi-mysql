@@ -204,10 +204,6 @@ part_dmg = {part1_n : part1_dmg, part2_n : part2_dmg, part3_n : part3_dmg, part4
 max_dmg = max(part_dmg.values())
 
 
-#List of all players deaths
-all_deaths = [part1_d, part2_d, part3_d, part4_d, part5_d, part6_d, part7_d, part8_d, part9_d, part10_d]
-
-
 #Prevents Zero division error in calculating KDA if a player had 0 deaths
 if part1_d == 0:
     part1_kda = (part1_k + part1_a)
