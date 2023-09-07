@@ -59,13 +59,13 @@ In this file i'll show how to create your own database, table and how to modify 
      </pre>
 
 
-  **7. Create table in your database, define table structure and collumns**
+  **7. Create table in your database, define table structure and columns**
      <pre>
      ```table_query = """```
      CREATE TABLE IF NOT EXISTS your_table_name (
-     collumn_name1 VARCHAR(45),
-     collumn_name2 VARCHAR(45),
-     collumn_name3 INT
+     column_name1 VARCHAR(45),
+     column_name2 VARCHAR(45),
+     column_name3 INT
      """
      cursor.execute(table_query)
      </pre>
@@ -90,10 +90,10 @@ In this file i'll show how to create your own database, table and how to modify 
 
   **NOTE**
   When inserting data into database, always check:
-  - Collumn order must match with collumn names in table
+  - Column order must match with collumn names in table
   - Number of placeholders must match number of rows
   - Format api data into hashable format, like tuple(), so it can be properly inserted
-  - Check if data types of your varibales match data types of your collumns (can't insert str into int collumn)
+  - Check if data types of your varibales match data types of your columns (can't insert str into int collumn)
 
   ***MySQL***
   All those thing could be also done in mysql workbench, manualy or by mysql commands with their own syntax.
