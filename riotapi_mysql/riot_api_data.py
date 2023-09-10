@@ -27,7 +27,7 @@ else:
 
 
 #API key and formated API URL
-api_key = "RGAPI-174c5834-6820-46a9-a169-3be315feb03e"
+api_key = ""
 api_url = f"https://{region}.api.riotgames.com/lol/summoner/v4/summoners/by-name/{name}"
 api_url = api_url + '?api_key=' + api_key
 
