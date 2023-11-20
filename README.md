@@ -31,7 +31,7 @@ Contributions to this project are welcome. You can help improve data fetching, a
 
 **NOTE**
 
-This is my first bigger project so i believe many things in my code could be better optimised or work more efficiently.
+This is my first project so i believe many things in my code could be better optimised or work more efficiently.
 
 
 Thank you for reading
